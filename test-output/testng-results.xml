@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-12T02:00:24 IST" name="Master suite" finished-at="2025-01-12T02:00:30 IST" duration-ms="5971">
+    <groups>
+    </groups>
+    <test started-at="2025-01-12T02:00:24 IST" name="MyTest" finished-at="2025-01-12T02:00:30 IST" duration-ms="5971">
+      <class name="testCases.TC01_EndToEnd">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC01_EndToEnd@10d307f1]" started-at="2025-01-12T02:00:24 IST" name="setUp" finished-at="2025-01-12T02:00:26 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="endToEnd()[pri:0, instance:testCases.TC01_EndToEnd@10d307f1]" started-at="2025-01-12T02:00:26 IST" name="endToEnd" finished-at="2025-01-12T02:00:29 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_EndToEnd@10d307f1]" started-at="2025-01-12T02:00:29 IST" name="tearDown" finished-at="2025-01-12T02:00:30 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_EndToEnd -->
+    </test> <!-- MyTest -->
+  </suite> <!-- Master suite -->
+</testng-results>
