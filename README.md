@@ -15,8 +15,15 @@ Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/katanaop721/AnkuKumar_Assignment_SDET.git
+
 cd AnkuKumar_Assignment_SDET
+
+### Step 2: Install Dependencies
+Run the following Maven command to download and install the project dependencies:
 ```bash
 mvn clean install
+
+### Step 3: Run the Tests
+To run the specific TC01_EndToEnd test, use the following command:
 ```bash
 mvn -Dtest=TC01_EndToEnd test
